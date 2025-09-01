@@ -649,9 +649,15 @@
     height: auto;
   }
 
+  .payment-options-container{
+    height: 230px;
+    padding: 24px;
+    width: 100%;
+    margin-top: 16px;
+  }
+
   .product-details-container,
   .size-selection-container,
-  .payment-options-container,
   .bundle-selection-container,
   .delivery-update-container {
     width: 100%;

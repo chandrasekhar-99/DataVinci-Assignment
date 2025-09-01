@@ -6,6 +6,8 @@ import "swiper/css/navigation";
 
 
 import Header from '../Header'
+import SubPage from '../SubPage'
+
 import MainProduct from '../../assets/product-desktop.png'
 import MainProductBackground from '../../assets/product-background.png'
 import ProductImage1 from '../../assets/1-product.png'
@@ -138,10 +140,11 @@ const Home = () => {
             <p className="product-title">Manuka Honey</p>
             <h1 className="product-umf">UMF<span className="tm">TM</span> <span className="product-span-value">24+</span></h1>
             <h1 className="product-umf">MGO <span className="product-span-value">1122+</span></h1>
-            <div className="product-info-container">
+            {/* <div className="product-info-container">
               <Info size={23}/>
               <p className="info-text">What is UMF and MGO?</p>
-            </div>
+            </div> */}
+            <SubPage />
             <div className="reviews-container">
               <p className="review-text">The Optimiser</p>
               <div className="heart-container">

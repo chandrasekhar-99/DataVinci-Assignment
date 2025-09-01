@@ -49,7 +49,7 @@ const Home = () => {
     ProductImage7
   ];
 
-const renderDeliveryUpdate = () => {
+  const renderDeliveryUpdate = () => {
   return (
     <div className="delivery-update-container">
       <div className="delivery-update-content">
@@ -111,7 +111,7 @@ const renderDeliveryUpdate = () => {
       </div>
     </div>
   );
-};
+  };
 
   const renderHomeTopContainer = () => {
     return(
@@ -170,7 +170,7 @@ const renderDeliveryUpdate = () => {
   const renderBottomContainer = () => {
     return(
       <div className="home-bottom-container">
-        <div>
+        <div className="product-sub-images-container">
           <div>
             <img src={ProductImage1} alt="Product 1"  className="product-sub-images"/>
           <img src={ProductImage2} alt="Product 2"  className="product-sub-images"/>

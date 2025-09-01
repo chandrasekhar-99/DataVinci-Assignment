@@ -586,3 +586,180 @@
   );
   border-radius: 3px;
 }
+
+/* @media (max-width: 768px) {
+  .product-sub-images-container{
+    display:none;
+  }
+
+  .home-top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+} */
+
+
+@media (max-width: 768px) {
+  .home-container {
+    margin: 16px auto 24px;
+    padding: 0 12px;
+  }
+
+  .home-top-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  /* Square carousel area that scales on mobile */
+  .product-image-carousel-container {
+    width: 100%;
+    max-width: 420px;
+    aspect-ratio: 1 / 1;
+    height: auto;            /* override desktop 585px */
+    border-radius: 16px;
+  }
+  .home-product-background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .home-product-carousel {
+    width: 78%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Swiper arrows: smaller + better tap target on mobile */
+  .swiper-button-next,
+  .swiper-button-prev {
+    --swiper-navigation-size: 20px;
+    width: 32px;
+    height: 32px;
+  }
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 20px;
+  }
+
+  .product-person-sub-images,
+  .product-sub-images {
+    width: 100%;
+    height: auto;
+  }
+
+  .product-details-container,
+  .size-selection-container,
+  .payment-options-container,
+  .bundle-selection-container,
+  .delivery-update-container {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 16px;
+  }
+
+  /* Fix very tight line-heights from desktop */
+  .product-title {
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .product-umf {
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .product-span-value {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .product-info-container {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    padding: 8px 16px;
+    margin: 12px auto 0;
+    justify-content: center;
+  }
+
+  .reviews-container {
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+  }
+
+  .certifications-container {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .home-bottom-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .product-variant-image {
+    width: 96px;
+    height: 96px;
+  }
+
+  /* Payments: stack buttons */
+  .payment-button-container {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+  .payment-option-1,
+  .payment-option-2 {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  /* Add-to-cart area: stack neatly */
+  .add-to-cart-container {
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+  .quantity-button-container {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .add-to-cart-button {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    height: 44px;
+    font-size: 14px;
+  }
+
+  /* Bundle blocks */
+  .bundle-header-container,
+  .bundle-offer-section,
+  .delivery-update-info,
+  .taste-profile-container,
+  .umf-scale-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .bundle-image {
+    width: 80px;
+    height: 80px;
+  }
+  .bundle-weight {
+    width: auto;
+  }
+
+  /* Hide sub image strip on mobile if present */
+  .product-sub-images-container {
+    display: none;
+  }
+}

@@ -1,0 +1,588 @@
+.home-container{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home-top-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.product-image-carousel-container {
+  position: relative;     
+  width: 585px;         
+  height: 585px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;    
+}
+
+.home-product-background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* keeps background filled */
+  display: block;
+}
+
+.home-product-carousel {
+  position: absolute;       /* overlay on background */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;              /* product image size */
+  height: auto;
+}
+
+.home-product-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000000;   /* arrow color */
+  font-weight: bold;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #ff9800;   /* hover color */
+}
+
+.product-sub-images {
+  width: 287.5px;
+  height: 200px;
+  transform: rotate(0deg);
+  opacity: 1;
+  object-fit: cover;
+  margin: 5px;
+}
+
+.product-person-sub-images {
+  width: 585px;
+  height: 300px;
+  transform: rotate(0deg);
+  opacity: 1;
+  object-fit: cover;
+  margin: 5px;
+}
+
+.product-title {
+  font-family: Segoe UI;
+  font-weight: 350;
+  font-style: Regular;
+  font-size: 40px;
+  color: #313131;
+  line-height: 48px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  line-height: 1px;
+}
+
+.product-umf {
+  font-family: Segoe UI;
+  font-weight: 350;
+  font-style: Regular;
+  font-size: 38.28px;
+  color: #313131;
+  line-height: 40px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  line-height: 1px;
+}
+
+
+
+.product-span-value {
+  font-family: Segoe UI;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 56.13px;
+  color: #313131;
+  line-height: 52.8px;
+  letter-spacing: 0%;
+}
+
+.tm {
+  font-size: 0.3em;   
+  vertical-align: 25px; 
+  margin-left: 2px;
+}
+
+.product-info-container {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  background: #66666626;
+  border-radius: 99px;
+  opacity: 1;
+  gap: 8px;
+  padding-top: 10px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  width: 210px;
+  height: 45px;
+}
+
+.info-text {
+  font-family: Segoe UI;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 13.89px;
+  line-height: 25px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #666666;
+  opacity: 1;
+}
+
+.heart-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 8px;
+  gap: 2px;
+}
+
+.reviews-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.product-details-container {
+  width: 650px;
+  opacity: 1;
+  top: 65.55px;
+  left: 705px;
+  padding-left: 40px;
+}
+
+.review-text{
+  font-family: Segoe UI;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 23.94px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #313131;
+}
+
+.review-number{
+  font-family: Segoe UI;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #313131;
+}
+
+.certification-image {
+  width: 70px;
+  height: 70px;
+  opacity: 1;
+}
+
+.certifications-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.home-bottom-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.product-variant-image {
+  width: 130px;
+  height: 130px;
+  opacity: 1;
+  top: 79.44px;
+  border-width: 1px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.product-variant-image:hover {
+  border: 1px solid #E87722;
+}
+
+.size-selection-container {
+  width: 650px;
+  opacity: 1;
+  top: 65.55px;
+  left: 705px;
+  padding-left: 40px; 
+}
+
+.payment-options-container {
+  width: 650px;
+  height: 144.1999969482422px;
+  opacity: 1;
+  top: 1019.64px;
+  border-radius: 25px;
+  background: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.subscribe-info-container {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  margin-left: 10px;
+  gap: 8px;
+}
+
+.payment-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.payment-option-1 {
+  width: 287.5px;
+  height: 64.80000305175781px;
+  opacity: 1;
+  top: 28px;
+  left: 30px;
+  border-width: 1px;
+  border-radius: 50px;
+  background: #F1B434;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Segoe UI;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 17.6px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color:#FFFFFF;
+}
+
+.payment-option-2 {
+  width: 287.5px;
+  height: 64.80000305175781px;
+  opacity: 1;
+  top: 28px;
+  left: 332.5px;
+  border-width: 1px;
+  border-radius: 50px;
+  background: #FFFFFF;
+  border: 1px solid #F1B434;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Segoe UI;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 17.6px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color:#000000;
+}
+
+.add-to-cart-section {
+  margin-top: 36px;
+}
+
+.add-to-cart-button {
+  width: 400px;
+  height: 47px;
+  opacity: 1;
+  top: 1233.84px;
+  left: 250px;
+  border-radius: 41px;
+  border-width: 1px;
+  border: 1px solid #313131;
+  background: #313131;
+  color:#ffffff;
+  font-family: Segoe UI;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+  background: #E87722;
+}
+
+.add-to-cart-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.quantity-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 195px;
+  height: 47px;
+  opacity: 1;
+  top: 25.5px;
+  border-radius: 50px;
+  border-width: 1px;
+  background: #F1B434;
+  color: #FFFFFF;
+  font-family: Segoe UI;
+}
+
+.bundle-image {
+  width: 94.66666412353516px;
+  height: 94.66666412353516px;
+  opacity: 1;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+
+.bundle-header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.bundle-weight {
+  font-family: Segoe UI;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #313131;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  width: 75px;
+  height: 27px;
+  gap: 4px;
+  opacity: 1;
+  border-radius: 20px;
+  border-width: 1px;
+  padding-top: 4px;
+  padding-right: 12px;
+  padding-bottom: 4px;
+  padding-left: 12px;
+  border: 1px solid #CECECE;
+}
+
+.bundle-offer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.bundle-offer-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.bundle-selection-container {
+  width: 650px;
+  gap: 24px;
+  opacity: 1;
+  top: 1312.84px;
+  border-radius: 24px;
+  padding: 20px;
+  background: #F2F2F2;
+  margin-top: 16px;
+}
+
+.bundle-price{
+  font-family: Segoe UI;
+  font-weight: 600;
+  font-style: Semibold;
+  font-size: 18px;
+  line-height: 23.94px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #313131;
+}
+
+.original-price {
+  color: #A0A0A0;
+  font-family: Segoe UI;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 23.94px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: line-through;
+}
+
+.discount {
+  color: #09801A;
+}
+
+.add-bundle-button {
+  width: 260px;
+  height: 46px;
+  gap: 10px;
+  opacity: 1;
+  border-radius: 50px;
+  border-width: 1px;
+  border: 1px solid #313131;
+  background: #313131;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.add-bundle-button:hover {
+  background: #E87722;
+}
+
+.bundle-plus-icon { 
+  margin-top: 5%;
+}
+
+.delivery-update-container {
+  width: 650px;
+  height: 429.1905517578125px;
+  opacity: 1;
+  top: 1601.51px;
+  border-width: 1px;
+}
+
+.delivery-update-image{
+  width: 40px;
+  height: 39.099998474121094px;
+  opacity: 1;
+  top: 1601.51px;
+  border-radius: 19.77px;
+
+}
+
+.delivery-update-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-family: Segoe UI;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 18.62px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+
+}
+
+.delivery-update-points {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #F1B434;
+  background: #FFFFFF;
+}
+
+.delivery-update-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.umf-scale-container {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+
+.taste-profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.umf-divider-10 {
+  border-top: 2px solid #E87722;
+}
+
+.umf-divider-15 {
+  border-top: 2px solid #E10600;
+}
+
+.umf-divider-20 {
+  border-top: 2px solid #CE0F69;
+}
+
+.umf-divider-24 {
+  border-top: 5px solid #830065;
+}
+
+.umf-divider-26 {
+  border-top: 2px solid #0085CA;
+}
+
+.umf-divider-28 {
+  border-top: 2px solid #3BAD4E;
+}
+
+.umf-divider-30 {
+  border-top: 2px solid #203E96;
+}
+
+.taste-profile-divider {
+  border: none;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    #E87722,
+    #E10600,
+    #CE0F69,
+    #830065,
+    #0085CA,
+    #3BAD4E,
+    #203E96
+  );
+  border-radius: 3px;
+}
